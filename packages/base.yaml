@@ -17,6 +17,7 @@ wifi:
 uart:
   tx_pin: ${uart_tx_pin}
   rx_pin: ${uart_rx_pin}
+  flow_control_pin: GPIO21
   baud_rate: 19200
   data_bits: 8
   parity: EVEN
